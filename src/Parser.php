@@ -54,6 +54,7 @@ class Parser
      * @var array $valid_mime_types
      */
     protected $valid_mime_types = array(
+        'text/html',
         'text/csv',
         'text/plain',
         'application/csv',
